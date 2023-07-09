@@ -1,0 +1,43 @@
+header{
+    background-color: bisque;
+    height: 500px;
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.text-orange {
+    color: orange;
+}
+.button-primary{
+   color: aliceblue;
+    background-color: orange;
+    border-radius: 2px;
+    padding: 3px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
